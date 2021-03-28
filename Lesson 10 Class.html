@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body{
+            background-color: black;
+            color: lime;
+            font: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form method="POST">
+        <label for="UName">User Name: </label>
+        <input type="text" name="UName" placeholder="User Name"><br/>
+        <label for="pwd">Password:  </label>
+        <input type="password" name="pwd" placeholder="Password"><br/>
+        <input type="button" value="Login">
+    </form>
+    <br/>
+    <h2>Registration Form</h2>
+    <form method="POST">
+        <label for="UName">User Name: </label>
+        <input type="text" name="UName" placeholder="User Name"><br/>
+        <label for="pwd">Password: </label>
+        <input type="password" name="comp" placeholder="Confirm Password"><br/>
+        <label for="CON">Country: <label>
+            <select name="CON">
+                <option value="Select">Select your country</option>
+                <option value="India">India</option>
+                <option value="Pakistain">Pakistain</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+            </select>
+            <br/>
+            <label>Hobbies: </label><br/>
+            <input type="checkbox">Dancing<br/>
+            <input type="checkbox">Gaming<br/>
+            <input type="checkbox">Codeing<br/>
+            <input type="checkbox">Riding a Bike<br/>
+            <input type="checkbox">Gardening<br/>
+            <input type="checkbox">Travelling<br/>
+            <input type="checkbox">Reading<br/>
+            <label>Complains/Suggestion<label></label>
+            <textarea cols="50" rows="25"></textarea>
+            <br/>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+</body>
+</html>

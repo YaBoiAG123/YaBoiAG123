@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <style>
+        body{
+            background-color: black;
+            color: lime;
+            font: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <h2>User Registration Form</h2>
+    <form method="POST">
+        <label for="FName">Full Name: </label>
+        <input type="text" name="FName"></br/>
+        <label for="mail">Email: </label>
+        <input type="email" name="mail"><br/>
+        <label for="mob">Mobile no.</label>
+        <input type="number" name="mob"></br>
+        <label for="gen">Gender: </label>
+        <input type="radio" name="gen">Male
+        <input type="radio" name="gen">Female
+        <input type="radio" name="gen">Others
+        <input type="radio" name="gen">Dont want to say
+        <br/>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob"><br/>
+        <label for="Uname">User name: </label>
+        <input type="text" name="Uname"><br/>
+        <label for="pwd">Password: </label>
+        <input type="password" name="pwd">
+        <br/>
+        <label for="FILE">Upload your Picture</label>
+        <input type="file" name="FILE"><br/>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Sign up">
+        </form>
+</body>
+</html>
